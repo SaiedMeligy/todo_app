@@ -5,7 +5,7 @@ import 'package:todo_app/features/Tasks/page/task_view.dart';
 import 'package:todo_app/features/layout_view.dart';
 
 class SettingProvider extends ChangeNotifier{
-  ThemeMode current_theme=ThemeMode.light;
+  ThemeMode current_theme=ThemeMode.dark;
   int current_index=0;
   List<Widget>Screens=[
     TaskView(),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/config/constants/App_theme_manager.dart';
+import 'package:todo_app/core/config/App_theme_manager.dart';
+import 'package:todo_app/features/Login/page/login_view.dart';
+import 'package:todo_app/features/Register/page/register_view.dart';
 import 'package:todo_app/features/Setting/page/setting_view.dart';
 import 'package:todo_app/features/Tasks/page/task_view.dart';
 import 'package:todo_app/features/layout_view.dart';
@@ -32,6 +34,8 @@ class todoapp extends StatelessWidget {
         LayoutView.route_name:(context) =>  LayoutView(),
         TaskView.route_name:(context) => const TaskView(),
         SettingView.route_name:(context) => const SettingView(),
+        LoginView.route_name:(context) => LoginView(),
+        RegisterView.route_name:(context) => RegisterView()
 
       },
 
